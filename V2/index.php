@@ -44,7 +44,7 @@
                 <header class="header-container">
                     <div class="header-content">
                         <div class="user-content">
-                            <a href="settings"><i class="fa-solid fa-user"></i></a>
+                            <a href="settings.php"><i class="fa-solid fa-user"></i></a>
                         </div>
                     </div>
                 </header>
