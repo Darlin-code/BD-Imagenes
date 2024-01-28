@@ -1,7 +1,6 @@
 <?php
     session_start();
     require_once("pdo.php");
-    $_SESSION["USER_AUTH"] = 1;
 
     if (!isset($_SESSION["USER_AUTH"])) { ?>
         <!DOCTYPE html>
