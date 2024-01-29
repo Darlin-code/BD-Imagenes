@@ -21,12 +21,6 @@
                         <div class="head-form-content">
                             <h1>Registrarse</h1>
                             <span><i>Ingrese los datos solicitados.</i></span>
-                            <?php
-                                if (isset($_SESSION["msg"])) {
-                                    echo $_SESSION["msg"];
-                                    unset($_SESSION["msg"]);
-                                }
-                            ?>
                         </div>
                         <div class="body-form-content">
                             <label for="name">
@@ -38,6 +32,12 @@
                             <label for="pw">
                                 Contraseña<input type="text" name="pw" id="pw">
                             </label>
+                            <?php
+                                if (isset($_SESSION["msg"])) {
+                                    echo $_SESSION["msg"];
+                                    unset($_SESSION["msg"]);
+                                }
+                            ?>
                         </div>
                         <div class="footer-form-content">
                             <button type="submit">Registrarme</button>
